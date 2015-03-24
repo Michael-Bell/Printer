@@ -49,7 +49,7 @@
 
 // Define this to set a unique identifier for this printer, (Used by some programs to differentiate between machines)
 // You can use an online service to generate a random UUID. (eg http://www.uuidgenerator.net/version4)
-// #define MACHINE_UUID "00000000-0000-0000-0000-000000000000"
+#define MACHINE_UUID "a9f6d481-4907-4bec-b3f8-3f7719556475"
 
 // This defines the number of extruders
 #define EXTRUDERS 1
@@ -476,9 +476,9 @@ const bool Z_MAX_ENDSTOP_INVERTING = true; // set to true to invert the logic of
 
 // default settings
 // 106.6667, 106.6667, 4000, 127.4
-#define DEFAULT_AXIS_STEPS_PER_UNIT   {6.6666875, 6.6666875, 251.818, 9.1}  
+#define DEFAULT_AXIS_STEPS_PER_UNIT   {6.66, 6.66, 251.818, 9.1}  
 #define DEFAULT_MAX_FEEDRATE          {400, 400, 1, 45}    // (mm/sec)
-#define DEFAULT_MAX_ACCELERATION      {100,100,1,100}    // X, Y, Z, E maximum start speed for accelerated moves. E default values are good for Skeinforge 40+, for older versions raise them a lot.
+#define DEFAULT_MAX_ACCELERATION      {50,50,1,100}    // X, Y, Z, E maximum start speed for accelerated moves. E default values are good for Skeinforge 40+, for older versions raise them a lot.
 
 #define DEFAULT_ACCELERATION          500    // X, Y, Z and E max acceleration in mm/s^2 for printing moves
 #define DEFAULT_RETRACT_ACCELERATION  2000   // X, Y, Z and E max acceleration in mm/s^2 for retracts
